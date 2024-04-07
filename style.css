@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #c84c4c, #29ae5a);
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-block: 34.65%;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+button{
+    border-radius: 5px;
+    padding-block: 20px;
+    padding-inline: 50px;
+}
+
+.copy{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.code{
+    display: flex;
+    border: 1px black solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.code p{
+    padding-block: 20px;
+}
